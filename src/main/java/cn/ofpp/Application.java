@@ -35,7 +35,7 @@ public class Application {
         // new 一个 男友 也可单独针对一个friend设置模板ID 以达到不同人不同消息
         BoyFriend boyFriend = new BoyFriend("王欣雨",
                 "山东省", "青岛市", "1999-08-08", "2011-04-16", "oHt_453NywxHOAER_upORqs47M2o", "QQAjnPKONi83cTNQbHAy2hA9nIP6OYcrTBGIAsyTMc4");
-        Wx.sendTemplateMessage(MessageFactory.resolveMessage(girlFriend));
+        Wx.sendTemplateMessage(MessageFactory.resolveMessage(boyFriend));
     }
 
 }
